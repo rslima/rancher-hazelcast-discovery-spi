@@ -8,13 +8,27 @@
 	<artifactId>rancher-hazelcast-discovery-spi</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<layout>default</layout>
+			<url>https://repo.aviovision.com/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<layout>default</layout>
+			<url>https://repo.aviovision.com/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hazelcast.version>3.9.3</hazelcast.version>
 		<jodd.version>4.3.1</jodd.version>
 		<junit.version>4.12</junit.version>
 		<wiremock.version>2.16.0</wiremock.version>
-    </properties>
+		<slf4j-simple.version>1.7.25</slf4j-simple.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -46,6 +60,13 @@
 			<version>${wiremock.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4j-simple.version}</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>

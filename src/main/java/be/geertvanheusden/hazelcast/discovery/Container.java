@@ -10,7 +10,7 @@ public final class Container {
 
 	private static final String RUNNING_STATE = "running";
 
-
+	private String name;
 	private String service_name;
 	private Integer service_index;
 	private String primary_ip;
@@ -18,7 +18,7 @@ public final class Container {
 
 
 	public String getName() {
-		return service_name + "_" + service_index;
+		return name;
 	}
 
 	public String getServiceName() {
