@@ -1,5 +1,8 @@
 # Rancher Hazelcast discover SPI
 
+[![Release](https://jitpack.io/v/be.geertvanheusden/rancher-hazelcast-discovery-spi.svg?style=flat-square)]
+(https://jitpack.io/#be.geertvanheusden/rancher-hazelcast-discovery-spi)
+
 This Hazelcast Discovery plugin for Rancher will automaticaly join containers from the same (Rancher) Service.
 It will use the [Rancher Metadata Service](https://rancher.com/docs/rancher/v1.6/en/rancher-services/metadata-service/) to detect the other members (containers) that are part of the same Service.
 
