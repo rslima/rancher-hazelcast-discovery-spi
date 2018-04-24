@@ -4,7 +4,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>be.geertvanheusden.hazelcast.discovery</groupId>
+	<groupId>be.geertvanheusden</groupId>
 	<artifactId>rancher-hazelcast-discovery-spi</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
