@@ -15,7 +15,7 @@ Add the following dependency to the project:
 
 ```
 <dependency>
-    <groupId>be.geertvanheusden.hazelcast</groupId>
+    <groupId>be.geertvanheusden</groupId>
     <artifactId>rancher-hazelcast-discovery-spi</artifactId>
     <version>${rancher-hazelcast-discovery-spi.version}</version>
 </dependency>
