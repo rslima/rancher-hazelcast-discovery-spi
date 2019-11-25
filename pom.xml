@@ -23,7 +23,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<hazelcast.version>3.9.3</hazelcast.version>
+		<hazelcast.version>3.12.4</hazelcast.version>
 		<jodd.version>4.3.1</jodd.version>
 		<junit.version>4.12</junit.version>
 		<wiremock.version>2.16.0</wiremock.version>
@@ -35,6 +35,7 @@
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-all</artifactId>
 			<version>${hazelcast.version}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jodd</groupId>
