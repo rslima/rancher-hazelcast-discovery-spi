@@ -2,7 +2,7 @@ package be.geertvanheusden.hazelcast.discovery;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import com.hazelcast.config.NetworkConfig;
-import com.hazelcast.nio.IOUtil;
+import com.hazelcast.internal.nio.IOUtil;
 import com.hazelcast.spi.discovery.DiscoveryNode;
 import jodd.http.HttpException;
 import org.junit.Rule;

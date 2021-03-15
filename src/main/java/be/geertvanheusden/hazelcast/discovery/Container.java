@@ -1,7 +1,7 @@
 package be.geertvanheusden.hazelcast.discovery;
 
+import com.hazelcast.cluster.Address;
 import com.hazelcast.config.NetworkConfig;
-import com.hazelcast.nio.Address;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

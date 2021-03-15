@@ -1,10 +1,10 @@
 package be.geertvanheusden.hazelcast.discovery;
 
+import com.hazelcast.internal.util.ExceptionUtil;
 import com.hazelcast.logging.ILogger;
 import com.hazelcast.logging.Logger;
 import com.hazelcast.spi.discovery.DiscoveryNode;
 import com.hazelcast.spi.discovery.SimpleDiscoveryNode;
-import com.hazelcast.util.ExceptionUtil;
 import jodd.http.HttpRequest;
 import jodd.http.HttpResponse;
 import jodd.json.JsonParser;
@@ -60,7 +60,7 @@ public final class RancherMetadataResolver {
 		List<DiscoveryNode> discoveryNodes = containers.stream()
 				.filter(Container::isRunning)
 				.map(container -> {
-					Map<String, Object> properties = new HashMap() {{
+					Map<String, String> properties = new HashMap() {{
 						this.put(SERVICE_NAME, container.getServiceName());
 						this.put(CONTAINER_NAME, container.getName());
 					}};
