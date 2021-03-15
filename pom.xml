@@ -6,7 +6,7 @@
 
 	<groupId>be.geertvanheusden</groupId>
 	<artifactId>rancher-hazelcast-discovery-spi</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>2.0.0</version>
 
 	<distributionManagement>
 		<repository>
