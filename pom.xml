@@ -6,7 +6,7 @@
 
 	<groupId>be.geertvanheusden</groupId>
 	<artifactId>rancher-hazelcast-discovery-spi</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 
 	<distributionManagement>
 		<repository>
@@ -23,7 +23,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<hazelcast.version>3.12.4</hazelcast.version>
+		<hazelcast.version>4.0.1</hazelcast.version>
 		<jodd.version>4.3.1</jodd.version>
 		<junit.version>4.12</junit.version>
 		<wiremock.version>2.16.0</wiremock.version>
@@ -33,7 +33,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast-all</artifactId>
+			<artifactId>hazelcast</artifactId>
 			<version>${hazelcast.version}</version>
 			<scope>provided</scope>
 		</dependency>
