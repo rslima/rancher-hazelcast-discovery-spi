@@ -10,9 +10,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
-			<layout>default</layout>
-			<url>https://repo.aviovision.com/repository/maven-releases/</url>
+			<id>github</id>
+                        <name>Repositório Github de Ricardo da Silva Lima</name>
+			<url>https://maven.pkg.github.com/rslima/rancher-hazelcast-discovery-spi</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
